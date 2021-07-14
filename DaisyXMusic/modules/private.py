@@ -104,7 +104,7 @@ def map(pos):
             [InlineKeyboardButton("➕ Add me to your Group 🙋‍♀️", url=f"https://t.me/HIT_MUSIC-BOT?startgroup=true")],
             [InlineKeyboardButton(text = '📲 Updates', url=f"https://t.me/UnknownHacker001")],
              InlineKeyboardButton(text = '💬 Support', url=f"https://t.me/UnknownHacker001")],
-            [InlineKeyboardButton(text = '🛠 Owner  ', url=f"https://t.me/UnknownHackerOO1")],
+            [InlineKeyboardButton(text = '🛠 Owner', url=f"https://t.me/UnknownHackerOO1")],
             [InlineKeyboardButton(text = '◀️', callback_data = f"help+{pos-1}")]
         ]
     else:
